@@ -1,4 +1,4 @@
-int base = 20;
+int base = 400;
 public void setup()
 {
 size(500, 500);
@@ -9,7 +9,7 @@ sierpinski(250, 250, 400);
 }
 public void mouseClicked()//optional
 {
-base += 20
+base /= 2;
 }
 public void sierpinski(int x, int y, int len) 
 {
