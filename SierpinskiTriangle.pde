@@ -6,8 +6,8 @@ background(51);
 }
 public void draw()
 {
-sierpinski(250, 250, 400);
 background(51);
+sierpinski(250, 250, 400);
 }
 public void mouseClicked()//optional
 {
