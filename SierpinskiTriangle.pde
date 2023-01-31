@@ -2,11 +2,11 @@ int base = 400;
 public void setup()
 {
 size(500, 500);
-background(51);
+background(10);
 }
 public void draw()
 {
-background(51);
+background(10);
 sierpinski(250, 250, 400);
 }
 public void mouseClicked()//optional
