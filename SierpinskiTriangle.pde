@@ -11,7 +11,11 @@ sierpinski(250, 250, 400);
 }
 public void mouseClicked()//optional
 {
-base /= 2;
+if(mouseButton == LEFT){
+  base /= 2;
+} else if(mouseButton == RIGHT){
+  base *= 2;
+}
 }
 public void sierpinski(int x, int y, int len) 
 {
